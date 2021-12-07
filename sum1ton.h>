@@ -1,8 +1,0 @@
-#include<stdio.h>
-void main()
-{
-	int x=1,n,a;
-
-	printf("Enter the value of n")
-	scan
-}
