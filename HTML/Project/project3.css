@@ -1,0 +1,47 @@
+.footer{
+    width: 72%;
+    background-color: rgb(201, 162, 162);
+    height: auto;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 13px;
+}
+.header{
+    background-color: lightpink;
+    width: 72%;
+    height: auto;
+}
+.sidebar{
+    float: left;
+    background-color: rgb(224, 188, 173);
+    width: 15%;
+}
+.contant{
+    float: left;
+    width: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sidebar2{
+    float: left;
+    width: 15%;
+    background-color: rgb(209, 117, 81);
+}
+h1{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+h3{
+    margin-left: 10px;
+    margin-top: 1px;
+}
+p{
+    margin-left: 10px;
+}
+.main{
+    position: absolute;
+    top: ;
+    left: 25%;
+}
+
