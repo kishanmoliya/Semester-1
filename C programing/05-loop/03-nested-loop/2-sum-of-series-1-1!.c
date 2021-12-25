@@ -8,11 +8,11 @@ void main()
 
     for(i=1;i<=n;i++)
     {
-        for(j=1;j<=i;j++)
+        for(j=1,z=1;j<=i;j++)
         {
             z=z*j;
         }
         sum=sum+(1/z);
     }
-    printf("Sum = %2f",1+sum);
+    printf("Sum = %f",sum);
 }
