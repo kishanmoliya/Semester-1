@@ -1,0 +1,187 @@
+*{
+	box-sizing: border-box;
+}
+.header{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	padding-bottom: 25px;
+}
+.menu{
+	width: 50%;
+	float: left;
+	text-align: right	;
+}
+.menu a{
+	text-decoration: none;
+	color: gray;
+	margin-right: 25px;
+	font-size: 12px;
+	
+}
+.span{
+	color: black;
+	font-size: 16px;
+}
+.span1{
+	color: blue;
+	font-size: 16px;
+	margin-right: 10px;
+}
+.span2{
+	color: rgb(63, 0, 238);
+}
+.get{
+	width: 50%;
+	float: left;
+	text-align: center;	
+}
+.hr{
+	color: rgba(235, 235, 235, 0.1);
+}
+.span3{
+	border: 1px solid gray;
+	border-radius: 1em;
+	padding: 7px 15px;
+	color: gray;
+	font-size: 12px;
+}
+.main{
+	width: 100%;
+}
+.info{
+	width: 50%;
+	float: left;
+	margin-top: 50px;
+	padding-left: 350px;
+	color: gray;
+}
+.pc{
+	width: 50%;
+	float: left;
+	padding-left: 80px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+h2{
+	color: black;
+}
+.span4{
+	border: 1px solid gray;
+	padding: 5px 17px;
+	float: left;
+}
+.span5{
+
+	width: 70%;
+	float: left;
+	margin-top: 6px;
+	margin-left: 10px;
+}
+.pattern1{
+	float: left;
+	width: 20%;
+	margin-left: 20%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.pattern2{
+	float: left;
+	width: 20%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.pattern3{
+	float: left;
+	width: 20%;
+	margin-right: 20%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.span6{
+	color: gray;
+	font-size: 13px;
+}
+.span7{
+	float: left;
+	margin-right: 10px;
+}
+.pc2{
+	float: left;
+	width: 100%;
+	height: auto;
+}
+.dynamic{
+	float: left;
+	width: 40%;
+	margin-top: 65px;
+	text-align: right;
+	margin-left: 50px;
+	margin-bottom: 100px;
+}
+.dynamic1{
+	float: left;
+	width: 40%;
+	margin-top: 75px;
+	margin-left: 70px;
+}
+.dynamic1 span{
+	color: blue;
+}
+.dynamic1 p{
+	color: gray;
+}
+.total{
+	width: 80%;
+	height: auto;
+	margin-left: 220px;	
+}
+.groth{
+	border: 1px solid gray;
+	float: left;
+	width: 30%;
+	padding: 60px 30px;
+	text-align: center;
+}
+.pc3{
+	width: 100%;
+	float: left;
+	height: auto;
+}
+.ready{
+	float: left;
+	width: 40%;
+	height: auto;
+	margin-bottom: 100px;
+	border: 2px solid black;
+	
+}
+.span8{
+	width: 20px;
+	border: 1px solid grey;
+	background-color: blue;
+	color: white;
+	padding: 5px 17px;
+}
+.span9{
+	width: 20px;
+	border: 1px solid gray;
+	padding: 5px 17px;
+}
+.ready p{
+	color: gray;
+}
+.ready{
+	width: 50%;
+	float: left;
+	padding-bottom: 220px;
+	margin-top: 90px;
+}
+.ready1{
+	width: 40%;
+	float: left;
+}
+.high{
+	width: 100%;
+}
+

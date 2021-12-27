@@ -14,5 +14,5 @@ void main()
         }
         sum=sum+(1/z);
     }
-    printf("Sum = %f",sum);
+    printf("Sum = %f",1+sum);
 }
