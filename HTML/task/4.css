@@ -1,6 +1,6 @@
 *{
 	box-sizing: border-box;
-}
+}	
 .header{
 	width: 100%;
 	height: auto;
@@ -37,7 +37,8 @@
 	text-align: center;	
 }
 .hr{
-	color: rgba(235, 235, 235, 0.1);
+	color: rgba(114, 12, 12, 0.1);
+	width: 100%;
 }
 .span3{
 	border: 1px solid gray;
@@ -147,14 +148,9 @@ h2{
 	width: 100%;
 	float: left;
 	height: auto;
-}
-.ready{
-	float: left;
-	width: 40%;
-	height: auto;
-	margin-bottom: 100px;
-	border: 2px solid black;
-	
+	margin-top: 40px;
+	margin-bottom: 130px;
+	margin-left: 140px;
 }
 .span8{
 	width: 20px;
@@ -170,18 +166,119 @@ h2{
 }
 .ready p{
 	color: gray;
+	margin-bottom: 50px;
 }
 .ready{
 	width: 50%;
 	float: left;
-	padding-bottom: 220px;
+	padding: 0px 0px 0px 220px;
 	margin-top: 90px;
 }
 .ready1{
 	width: 40%;
 	float: left;
 }
-.high{
+.span10{
+	color: blue;
+}
+.center{
 	width: 100%;
+	float: left;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.span11{
+	color: gray;
+	font-size: 11px;
+}
+.triangle1{
+	width: 20%;
+	float: left;
+	text-align: center;
+	margin-bottom: 80px;
+	margin-left: 280px;
+}
+.triangle2{
+	width: 20%;
+	text-align: center;
+	float: left;
+	margin-left: 30px;
+}
+.plan{
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-top: 70px;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+.member1{
+	width: 13%;
+	float: left;
+	border: 1px solid gray;
+	padding: 30px 20px;
+	text-align: center;
+	margin-left: 400px;
+}
+.member3{
+	width: 13%;
+	float: left;
+	border: 1px solid gray;
+	padding: 30px 20px;
+	text-align: center;
+	margin-left: 50px;
+}
+.member2{
+	width: 13%;
+	float: left;
+	border: 1px solid gray;
+	padding: 30px 20px;
+	text-align: center;
+	background-color: rgb(79, 79, 209);
+	color: white;
+	margin-left: 50px;
+	margin-bottom: 120px;
+}
+.span13{
+	color: grey;
+}
+.span14{
+	font-size: 11px;
+}.span15{
+	font-size: 11px;
+	color: gray;
+	border: 1px solid gray;
+	border-radius: 1em;
+	padding: 5px 5px;
+}
+.span16{
+	font-size: 11px;
+	color: white;
+	border: 1px solid rgb(226, 225, 225);
+	border-radius: 1em;
+	padding: 5px 5px;
+}
+.man1{
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color: rgb(230, 233, 236);
+	height: 20%;
+}
+.poto{
+	width: 50%;
+	float: left;
+	text-align: right;
+	padding-right: 50px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.grup{
+	width: 50%;
+	float: left;
+	text-align: justify;
+	padding-top: 50px;
+	padding-left: 80px;
+	padding-top: 110px;
 }
 
