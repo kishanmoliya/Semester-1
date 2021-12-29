@@ -281,4 +281,25 @@ h2{
 	padding-left: 80px;
 	padding-top: 110px;
 }
+.touch img{
+	border: 1px solid gray;
+	border-radius: 3em;
+	padding: 3px 3px;
+}
+.touch p{
+	color: gray;
+}
+.span17{
+	font-size: 25px;
+}
+.touch{
+	float: left;
+	width: 50%;
+	border: 2px solid;
+}
+.drop{
+	float: left;
+	width: 50%;
+	border: 2px solid;
+}
 

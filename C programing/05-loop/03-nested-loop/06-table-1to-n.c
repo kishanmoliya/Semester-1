@@ -8,9 +8,9 @@ void main()
     printf("Enter the value of y = ");
     scanf("%d",&y);
 
-    for(i=1;i<=10;i++)
+    for(i=1;i<=y;i++)
     {
-        for(j=x;j<=y;j++)
+        for(j=1;j<=x;j++)
         {
             printf("%d\t",i*j);
         }
