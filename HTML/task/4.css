@@ -143,6 +143,7 @@ h2{
 	padding: 60px 30px;
 	text-align: center;
 }
+
 .pc3{
 	width: 100%;
 	float: left;
@@ -212,30 +213,20 @@ h2{
 	margin-bottom: 50px;
 }
 .member1{
-	width: 13%;
+	width: 20%;
 	float: left;
 	border: 1px solid gray;
 	padding: 30px 20px;
 	text-align: center;
-	margin-left: 400px;
+	/* margin-left: 400px; */
+	margin-right: 50px;
 }
-.member3{
-	width: 13%;
-	float: left;
-	border: 1px solid gray;
-	padding: 30px 20px;
-	text-align: center;
-	margin-left: 50px;
-}
-.member2{
-	width: 13%;
-	float: left;
-	border: 1px solid gray;
-	padding: 30px 20px;
-	text-align: center;
+.member1:hover{
 	background-color: rgb(79, 79, 209);
 	color: white;
-	margin: 0px 0px 120px 50px;
+}
+.member{
+	margin-left: 400px;
 }
 .span13{
 	color: grey;
@@ -262,6 +253,7 @@ h2{
 	float: left;
 	background-color: rgb(230, 233, 236);
 	height: 20%;
+	margin-top: 100px;
 }
 .poto{
 	width: 50%;
@@ -389,6 +381,5 @@ h2{
 	text-align: center;
 	margin: 30px 0px 30px 0px;		
 }
-.hr{
-	height: 5%;
-}
+
+
