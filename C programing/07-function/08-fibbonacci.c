@@ -12,9 +12,9 @@ void  main()
 
 int fibbo(int n)
 {
-	int i,j,x,p;
+	int i,j=1,x,p=1;
 
-	for(i=0,j=1,p=1;p<=n-2;p++)
+	for(i=0;p<=n-2;p++)
 
 	{
 		if(p==1)
@@ -27,3 +27,4 @@ int fibbo(int n)
 		j=x;
 		printf("%d ",x);
 	}
+}
