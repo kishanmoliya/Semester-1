@@ -7,17 +7,19 @@
 #include<stdio.h>
 void main()
 {
-    int n,i,j;
+    int n,i,j,k=1;
                                                             
     printf("Enter the value of n = ");                        
-    scanf("%d",&n);                                           
+    scanf("%d",&n);
+    fflush(stdin);                                           
                                                             
-    for(i=1;i<=n;i=j)                                         
+    for(i=1;k<=n;i=j)                                         
     {                                                         
-        for(j=i;j<i+i;j++)                               
+        for(j=i;j<i+k;j++)                               
         {
-            printf("%d",j);
+            printf(" %d",j);
         }
         printf("\n");
+        k++;
     }
 }

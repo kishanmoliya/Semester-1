@@ -1,27 +1,26 @@
 // => OUTPUT
-//     1
-//    2 2
-//   3 3 3
-//  4 4 4 4
+//    A A A A A
+//    B B B B
+//    C C C
+//    D D
+//    E
 
 #include<stdio.h>
 void main()
 {
-    int n,i,j,k;
+    int n,i,j;
+    char x='A';
                                                             
     printf("Enter the value of n = ");                        
     scanf("%d",&n);                                           
                                                             
-    for(i=1;i<=n;i++)                                         
+    for(i=n;i>0;i--)                                         
     {                                                         
-        for(j=i;j<n;j++)                               
+        for(j=1;j<=i;j++)                               
         {
-            printf(" ");
+            printf(" %c",x);
         }
-        for(k=1;k<=i;k++)
-        {
-            printf("%d ",i);
-        }
+        x++;
         printf("\n");
     }
 }

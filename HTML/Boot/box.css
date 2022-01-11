@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+.row{
+    width: 100%;
+}
+.col{
+    border: 2px solid black;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+}
+.row col{
+    margin: 10px;
+}

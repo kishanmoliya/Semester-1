@@ -1,9 +1,9 @@
 // => OUTPUT
 //     1
-//    2 2
-//   3 3 3
-//  4 4 4 4
-
+//     2 3
+//     4 5 6
+//     7 8 9 10
+   
 #include<stdio.h>
 void main()
 {
@@ -12,16 +12,13 @@ void main()
     printf("Enter the value of n = ");                        
     scanf("%d",&n);                                           
                                                             
-    for(i=1;i<=n;i++)                                         
+    for(i=1;k<=n;i=j)                                         
     {                                                         
-        for(j=i;j<n;j++)                               
+        for(j=i;j<i+k;j++)                               
         {
-            printf(" ");
-        }
-        for(k=1;k<=i;k++)
-        {
-            printf("%d ",i);
+            printf("%d",j);
         }
         printf("\n");
+        k++;
     }
 }

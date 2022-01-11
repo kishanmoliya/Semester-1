@@ -9,14 +9,14 @@ void main()
 {
     int n,i,j;
                                                             
-    printf("Enter the value of n = ");                        
+    printf("Enter the value of n = ");                         
     scanf("%d",&n);                                           
                                                             
     for(i=1;i<=n;i++)                                         
     {                                                         
         for(j=i;j<i+i;j++)                               
         {
-            printf("%d",j);
+            printf(" %d",j);
         }
         printf("\n");
     }
