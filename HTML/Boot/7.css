@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+.bk{
+    background-image: url('images/banner.png');
+    background-size: 100%;
+    background-repeat: no-repeat;  
+}
+.bkk{
+    background-image: url('images/contact-bg.png');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+

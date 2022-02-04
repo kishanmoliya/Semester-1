@@ -15,7 +15,6 @@ int fibbo(int n)
 	int i,j=1,x,p=1;
 
 	for(i=0;p<=n-2;p++)
-
 	{
 		if(p==1)
 		{

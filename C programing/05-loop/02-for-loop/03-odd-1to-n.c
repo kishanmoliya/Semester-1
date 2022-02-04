@@ -8,8 +8,11 @@ void main()
 
     printf("Odd number is\n");
 
-    for(x=1;x<=n && x%2!=0;x+=2)
+    for(x=1;x<=n;x++)
     {
+        if(x%2!=0)
+        {
         printf("%d\n",x);
+        }
     }
 }

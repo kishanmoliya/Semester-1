@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 float interest();
 void main()
 {

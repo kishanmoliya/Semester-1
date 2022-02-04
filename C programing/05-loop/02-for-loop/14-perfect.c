@@ -1,12 +1,12 @@
 #include <stdio.h>
 void main()
 {
-	int x,i,m;
+	int x,i,m=0;
 
 	printf("Enter the value of x = ");
 	scanf("%d",&x);
 
-	for(i=1,m=0;i<=x;i++)
+	for(i=1;i<=x;i++)
 	{
 		if (x%i==0)
 		{

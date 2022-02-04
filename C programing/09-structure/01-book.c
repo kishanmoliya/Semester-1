@@ -1,10 +1,10 @@
 #include<stdio.h>
 struct book
-{
-	char title[25];
-	char name[25];
-	char publication[25];
-	int price;
+{  					
+	char title[25];				   	  //
+	char name[25];					 //
+	char publication[25];			// Member declaration
+	int price;					   //
 }b1,b2;
 void main()
 {
